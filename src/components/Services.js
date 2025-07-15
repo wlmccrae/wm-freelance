@@ -24,6 +24,9 @@ function Services () {
         <div className="service-name">CONTACT FORM ADD-ON</div>
         <div className="description">Allows people to contact you via a form. Includes setting up a form email service for you.</div>
         <div className="price">$98USD</div>
+        <div className="service-name">CUSTOM FOOTER</div>
+        <div className="description">All pages include "Developed by Wanda McCrae" in the footer. You can remove that phrase for a small fee</div>
+        <div className="price">$59USD</div>
       </div>
       <hr className="prices-hr" />
       <div className="freelance-title-container">
