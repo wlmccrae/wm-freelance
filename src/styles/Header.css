@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  background-color: #2983bc;
+  color: #e7e7e7;
+  top: 0;
+  }
+
+.my-logo {
+  margin-right: auto;
+  padding-left: 10px;
+  max-width: 80px;
+  height: auto;
+}
+
+.header-text {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.my-name {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  padding: 10px 0 0;
+  font-size: 32px;
+}
+
+.my-title {
+  padding: 3px 0;
+  font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 12px;
+  gap: 15px;
+  padding: 5px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:link {
+  color: #e6e9f0;
+}
+
+.header a:visited {
+  color: #e6e9f0;
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  .my-logo {
+    margin-right: auto;
+    max-width: 120px;
+  }
+
+  .my-name {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    padding: 15px 0 0;
+    font-size: 45px;
+  }
+
+  .my-title {
+    padding: 0;
+    font-size: 25px;
+  }
+
+  .contact {
+    font-size: 15px;
+    gap: 20px;
+    padding: 10px 0;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  .my-logo {
+    max-width: 150px;
+    margin: auto;
+  }
+
+  .my-name {
+    font-size: 65px;
+  }
+
+  .my-title {
+    padding: 0;
+    font-size: 30px;
+  }
+
+  .contact {
+    font-size: 20px;
+    gap: 30px;
+    padding: 10px 0;
+  }
+}

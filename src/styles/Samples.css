@@ -1,0 +1,37 @@
+.sample-sites {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.sample p {
+  padding: 0 15px;
+  margin: 0;
+  text-align: left;
+}
+
+.sample a {
+  color: #2983bc;
+  text-decoration: none;
+}
+
+.sample-project-link {
+  font-weight: 700;
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  .sample-sites {
+    font-size: 18px;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  .sample-sites {
+    font-size: 20px;
+  }
+}

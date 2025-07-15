@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #184B6C;
+  width: 100%;
+  /* background-image: url('../assets/code-img.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh; */
+}
+
+.freelance-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.freelance-title-container {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.freelance-page-title {
+  font-family: "Overlock", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2983bc;
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  body {
+      font-size: 16px;
+  }
+
+  .freelance-page {
+    padding: 20px 25px;
+  }
+
+  .freelance-title-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .freelance-page-title {
+    font-size: 40px;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  body {
+      font-size: 20px;
+  }
+
+  .freelance-page {
+    padding: 25px 100px;
+  }
+
+  .freelance-page-title {
+    font-size: 50px;
+  }
+}

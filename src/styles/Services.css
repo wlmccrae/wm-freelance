@@ -1,0 +1,24 @@
+.prices-table {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minmax(100px auto);
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.price {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  text-align: left;
+}
+
+.service-name {
+  text-align: left;
+}
+
+.prices-hr {
+  width: 100%;
+}

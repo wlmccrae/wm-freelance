@@ -1,0 +1,60 @@
+.main-page-title {
+  font-family: 'Overlock';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #2983bc;
+}
+
+.welcome-message {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.checklist {
+  margin: 0 15px;
+  padding: 5px 0;
+}
+
+.welcome-nav-link {
+  background-color: #2983bc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-content-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  .main-page-title {
+    font-size: 35px;
+  }
+
+  .main-content-img {
+    padding-top: 20px;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  .main-page-title {
+    font-size: 45px;
+  }
+
+  .welcome-message {
+    padding: 15px 0;
+  }
+
+  .checklist {
+    margin: 0;
+    padding: 5px 30px 0;
+  }
+}
