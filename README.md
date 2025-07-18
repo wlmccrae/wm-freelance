@@ -10,3 +10,6 @@ No CI/CD. Build folder manually uploaded to server.
 - React.js
 - CSS
 - Google Fonts
+
+## Revision History
+- 2025 July 17: Updated pricing and header.
