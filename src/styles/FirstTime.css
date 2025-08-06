@@ -1,0 +1,23 @@
+h1 {
+  font-family: 'Overlock';
+  font-size: 25px;
+  margin: 10px 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lucidia Sans';
+  font-size: 15px;
+  margin: 0 0 0 40px;
+}
+
+p {
+  font-style: italic;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}
+
+.bullet {
+  padding-left: 15px;
+}
