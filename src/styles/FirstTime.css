@@ -1,23 +1,54 @@
-h1 {
+.special-offer {
   font-family: 'Overlock';
-  font-size: 25px;
+}
+
+h1 {
+  font-size: 30px;
   margin: 10px 15px;
   text-align: center;
 }
 
 h2 {
-  font-family: 'Lucidia Sans';
-  font-size: 15px;
   margin: 0 0 0 40px;
 }
 
 p {
   font-style: italic;
-  font-size: 13px;
+  font-size: 15px;
   color: black;
   text-align: center;
 }
 
+.offer-details {
+  padding: 20px;
+}
+
 .bullet {
   padding-left: 15px;
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  .offer-details {
+    padding: 20px 200px;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  .offer-details {
+    padding: 20px 450px;
+  }
+
+  p {
+    font-size: 25px;
+  }
 }
