@@ -18,7 +18,7 @@ function Samples() {
         </div>
         <div className="sample">
           <a className="sample-project-link" href="https://wandamccrae.com/projects/ronni-davis/" target="_blank" rel="noopener noreferrer">- Ronni Davis</a>
-          <p>BASIC WEBSITE with more than one EXTRA PAGE (no scripting).</p>
+          <p>BASIC WEBSITE with more than one EXTRA PAGE (no scripting) and a CONTACT PAGE.</p>
         </div>
         <div className="sample">
           <NavLink className="sample-project-link" to="/">
