@@ -1,6 +1,6 @@
-import '../styles/FirstTime.css';
+import '../styles/SpecialOffer.css';
 
-function FirstTime () {
+function SpecialOffer() {
   return (
     <div className="special-offer">
       <h1>Special One Time Offer</h1>
@@ -17,4 +17,4 @@ function FirstTime () {
   );
 };
 
-export default FirstTime;
+export default SpecialOffer;

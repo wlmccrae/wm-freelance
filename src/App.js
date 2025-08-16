@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Samples from './components/Samples';
 import Contact from './components/Contact';
 import Thanks from './components/Thanks';
-import FirstTime from './components/FirstTime';
+import SpecialOffer from './components/SpecialOffer';
 import './App.css';
 import './styles/global.css';
 
@@ -22,7 +22,7 @@ function App() {
             <Route path="samples" element={<Samples />} />
             <Route path="contact" element={<Contact />} />
             <Route path="thanks" element={<Thanks />} />
-            <Route path="first-time" element={<FirstTime />} />
+            <Route path="specialoffer" element={<SpecialOffer />} />
           </Routes>
         </div>
         <Footer />
