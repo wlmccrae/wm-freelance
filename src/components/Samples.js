@@ -11,13 +11,13 @@ function Samples() {
         <div className="sample">
           <a
             className="sample-project-link"
-            href="https://freelance.wandamccrae.com/projects/tea-shoppe/" target="_blank" rel="noopener noreferrer">
+            href="/projects/tea-shoppe/index.html" target="_blank" rel="noopener noreferrer">
             - Lotus Blossom Tea Shoppe
           </a>
           <p>BASIC WEBSITE for a local tea shoppe.</p>
         </div>
         <div className="sample">
-          <a className="sample-project-link" href="https://freelance.wandamccrae.com/projects/ronni-davis/" target="_blank" rel="noopener noreferrer">- Ronni Davis</a>
+          <a className="sample-project-link" href="/projects/ronni-davis/index.html" target="_blank" rel="noopener noreferrer">- Ronni Davis</a>
           <p>BASIC WEBSITE with more than one EXTRA PAGE (no scripting) and a CONTACT PAGE.</p>
         </div>
         <div className="sample">
