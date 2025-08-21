@@ -1,0 +1,755 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+  font-style: normal;
+  background-image: url("assets/white-blue-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+a:link,
+a:visited {
+  color: #462866;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  gap: 175px;
+}
+
+.ronni-name {
+  width: 100px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.intro {
+  background-color: #eed9ea;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 20px;
+}
+
+.intro-img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.rotate-left {
+  rotate: -15deg;
+}
+
+.rotate-right {
+  rotate: 10deg;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bad Script", cursive;
+  color: grey;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.meet-text {
+  font-family: "Libre Franklin", sans-serif;
+  border: 2px solid #d1caca;
+  margin: auto;
+  padding: 6px;
+  color: #272262;
+  line-height: normal;
+  width: fit-content;
+}
+
+.intro-soon {
+  background-color: #eed9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 300;
+  font-style: normal;
+  color: #272262;
+  padding: 30px 60px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  gap: 20px;
+}
+
+.bio-header {
+  font-family: "Bad Script", cursive;
+  font-size: 25px;
+  font-weight: 100;
+  color: #272262;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 55%;
+}
+
+.main-sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  gap: 20px;
+}
+
+.ronni-portrait {
+  max-width: auto;
+}
+
+.representation {
+  border: 1px solid grey;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.representation-header {
+  color: #272262;
+  font-size: 17px;
+}
+
+.representation-text {
+  font-family: "Bad Script", cursive;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+}
+
+.icons {
+  width: 30px;
+  height: auto;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 150px;
+  font-family: "Bad Script", cursive;
+}
+
+.link-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #b588ad;
+  font-weight: 200;
+  font-size: 28px;
+  padding: 0 0 20px 0;
+}
+
+.links-book-img {
+  width: 200px;
+}
+
+.link-item {
+  background-color: #b588ad;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.link-item a {
+  color: #ffffff;
+}
+
+.books {
+  background-color: #eed9ea;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.book-img {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  gap: 20px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bad Script", cursive;
+  color: grey;
+  gap: 30px;
+}
+
+.book-intro {
+  background-color: #eed9ea;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 60px;
+  gap: 50px;
+}
+
+.quotes-box {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.book-quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.quote-img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
+.order-book {
+  font-family: "Libre Franklin", sans-serif;
+  border: 2px solid #d1caca;
+  margin: auto;
+  padding: 15px 10px;
+  background: #61598a;
+  font-size: 20px;
+  line-height: normal;
+  width: fit-content;
+}
+
+.order-book a {
+  color: #ffffff;
+}
+
+.book-title {
+  color: #272262;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 30px 0px 5px 0px;
+}
+
+.book-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px 100px;
+}
+
+.book-text-emphasis {
+  color: #61598a;
+}
+
+.book-extras {
+  padding: 0px 100px;
+}
+
+.pinterest-img {
+  border-radius: 10px;
+}
+
+.book-closing {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+  padding: 0px 60px;
+  gap: 20px;
+}
+
+.intro-resources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-family: "Bad Script", cursive;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
+  color: #272262;
+  text-align: center;
+  background-color: #eed9ea;
+  padding: 30px 60px;
+}
+
+.resources-img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  border: 5px solid #ffffff;
+}
+
+.resources-text {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 60px;
+  gap: 10px;
+}
+
+.resources-header {
+  font-family: "Bad Script", cursive;
+  font-size: 25px;
+  font-weight: 100;
+  color: #272262;
+  padding-top: 15px;
+}
+
+.note {
+  padding-left: 20px;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 10px 15px 20px 15px;
+  padding: 0 10px;
+  gap: 20px;
+}
+
+.contact-page p {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-label {
+  font-weight: 400;
+}
+
+.contact-field {
+  width: 150px;
+}
+
+.message-field {
+  height: 100px;
+}
+
+.contact-me {
+  background-color: #b588ad;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.required-field {
+  color: red;
+  font-weight: bold;
+}
+
+.thanks-title {
+  background-color: #eed9ea;
+  padding: 20px 0;
+  font-family: "Bad Script", cursive;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  color: #272262;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5px;
+  margin: 30px 100px 60px 30px;
+  font-size: 15px;
+}
+
+.footer-text {
+  font-family: "Bad Script", cursive;
+}
+
+/* Responsive CSS for smaller screens and phones */
+@media screen and (width < 700px) {
+  body {
+    font-size: 9px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .ronni-name {
+    width: 110px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 0;
+    gap: 5px;
+    color: #272262;
+    font-size: 8px;
+  }
+
+  .intro {
+    padding: 10px 20px;
+  }
+
+  .intro-img {
+    width: 100px;
+  }
+
+  .intro-text {
+    font-size: 10px;
+  }
+
+  .meet-text {
+    border: 1px solid #d1caca;
+  }
+
+  .main-content {
+    margin: 10px;
+  }
+
+  .bio-header {
+    font-size: 15px;
+  }
+
+  .main-text {
+    gap: 10px;
+  }
+
+  .representation {
+    border: 1px solid #d1caca;
+    gap: 5px;
+  }
+
+  .representation-header {
+    font-size: 11px;
+  }
+
+  .representation-text {
+    font-size: 9px;
+    align-content: center;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .icons {
+    width: 20px;
+  }
+
+  .book-info {
+    gap: 5px;
+  }
+
+  .book-intro {
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .book-img {
+    width: 125px;
+    height: auto;
+  }
+
+  .quotes-box {
+    font-size: 10px;
+  }
+
+  .book-quote {
+    gap: 5px;
+  }
+
+  .quote-img {
+    width: 10px;
+  }
+
+  .order-book {
+    border: 1px solid #d1caca;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .book-text {
+    padding: 5px 15px;
+    gap: 8px;
+  }
+
+  .book-title {
+    font-size: 14px;
+    padding: 5px 0 0 0;
+  }
+
+  .book-extras {
+    padding: 0 15px;
+  }
+
+  .book-closing {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .intro-resources {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .resources-img {
+    width: 70px;
+    height: auto;
+    border: 3px solid #ffffff;
+  }
+
+  .resources-text {
+    gap: 5px;
+    margin: 10px;
+  }
+
+  .resources-header {
+    padding-top: 8px;
+    font-size: 15px;
+  }
+
+  .link-box {
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .link-intro {
+    gap: 15px;
+    font-size: 12px;
+  }
+
+  .links-book-img {
+    width: 100px;
+  }
+
+  .link-item {
+    padding: 5px 10px;
+    font-size: 8px;
+  }
+
+  .footer-content {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .footer-text {
+    font-family: "Bad Script", cursive;
+  }
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 700px) {
+  body {
+    font-size: 15px;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 175px;
+  }
+
+  .ronni-name {
+    width: 150px;
+    margin-right: 10px;
+  }
+
+  .intro {
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .quotes-box {
+    font-size: 20px;
+  }
+
+  .quote-img {
+    margin: 0 5px;
+  }
+
+  .book-text {
+    padding: 0 50px;
+    font-size: 16px;
+  }
+
+  .book-extras {
+    padding: 0 50px;
+  }
+
+  .link-box {
+    padding: 20px;
+  }
+
+  .link-intro {
+    gap: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+
+  .link-item {
+    font-size: 15px;
+  }
+
+  .contact-page {
+    padding: 20px 35px;
+  }
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-label {
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .contact-field {
+    width: 250px;
+  }
+
+  .message-field {
+    height: 100px;
+    width: 85%;
+  }
+
+  .contact-me {
+    margin-top: 20px;
+  }
+
+  .thanks-title {
+    padding: 30px 0;
+    font-size: 35px;
+    font-weight: 200;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  body {
+    font-size: 17px;
+  }
+  .ronni-name {
+    width: 200px;
+  }
+
+  .menu {
+    gap: 50px;
+    font-size: 17px;
+  }
+
+  .intro {
+    gap: 100px;
+  }
+
+  .bio-header {
+    font-size: 35px;
+  }
+
+  .contact-page {
+    padding: 30px 45px;
+  }
+
+  .contact-field {
+    width: 350px;
+  }
+
+  .message-field {
+    height: 200px;
+  }
+
+  .thanks-title {
+    padding: 50px 0;
+    font-size: 55px;
+  }
+
+  .footer-content {
+    font-size: 17px;
+  }
+}

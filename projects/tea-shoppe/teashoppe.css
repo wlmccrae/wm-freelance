@@ -1,0 +1,206 @@
+body {
+  background-image: url("assets/vertical-teapot3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Bad Script", cursive;
+  font-size: 10px;
+  color: #d6a592;
+}
+
+.mobile-only {
+  display: block;
+}
+
+.tablet-only {
+  display: none;
+}
+
+.content {
+  flex: 1;
+}
+
+.header {
+  background: rgba(122, 51, 45, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+a:link, a:visited {
+  color: #d6a592;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.sm-indent {
+  padding-left: 15px;
+}
+
+.page-title {
+  font-size: 20px;
+  text-align: center;
+  color: #d6a592;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 10px 0px 10px;
+  gap: 40px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+}
+
+.map {
+  height:200px;
+  width: auto;
+  border: 1px white solid;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-family: "Bad Script", cursive;
+}
+
+.about {
+  background: rgba(122, 51, 45, 0.5);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+  color: #f0f0f0;
+}
+
+.tea-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 15px;
+  font-family: "Bad Script", cursive;
+}
+
+.tea-list p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background: rgba(122, 51, 45, 0.2);
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 10px;
+  text-align: right;
+  color: #f0f0f0;
+}
+
+/* Responsive CSS for tablets */
+@media screen and (width >= 700px) {
+  .location {
+    font-size: 15px;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: block;
+  }
+
+  .header-right {
+    padding: 0 30px;
+  }
+
+  .header img {
+    width: 200px;
+  }
+
+  .page-title {
+    font-size: 40px;
+  }
+
+  .menu {
+    font-size: 24px;
+    gap: 40px;
+  }
+
+  .about {
+    font-size: 15px;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (width >= 1000px) {
+  .location {
+    font-size: 20px;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: block;
+  }
+
+  .header-right {
+    padding: 0 100px;
+  }
+
+  .header img {
+    width: 200px;
+  }
+
+  .page-title {
+    font-size: 40px;
+  }
+
+  .menu {
+    font-size: 24px;
+    gap: 40px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+
+  .footer {
+    font-size: 15px;
+  }
+}

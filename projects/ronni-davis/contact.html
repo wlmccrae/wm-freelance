@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🩷 Ronni Davis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="ronni-davis.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img class="ronni-name" src="assets/ronni-name.jpg" alt="Ronni Davis" />
+      <div class="menu">
+        <a href="index.html">ABOUT</a>
+        <a href="books.html">BOOKS</a>
+        <a href="resources.html">RESOURCES</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="intro">
+      <img
+        class="intro-img rotate-right"
+        src="assets/ronni-brown-jacket.jpg"
+        alt="Ronni in a brown jacket with pink glasses"
+      />
+      <img
+        class="intro-img rotate-left"
+        src="assets/ronni-pink-chair.jpg"
+        alt="Ronni in a pink chair"
+      />
+      <img
+        class="intro-img rotate-right"
+        src="assets/ronni-keyboard.jpg"
+        alt="keyboard closeup"
+      />
+    </div>
+    <div class="contact-page">
+      <div class="contact-text">
+        <h2 class="bio-header">Contact</h2>
+        <p>
+          <a href="https://ronnidavis.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Sign up for my newsletter!</a>
+        </p>
+        <p>
+          For anything else, please use the form. Please note that this mailbox is not regularly monitored.
+        </p>
+      </div>
+      <form class="contact-form" action="https://formsubmit.co/inquiries@ronnidavis.com" method="POST">
+        <!-- After submitting the form, send users to the Thanks page. -->
+        <input type="hidden" name="_next" value="https://ronnidavis.com/thanks.html" />
+        <!-- Use the table template from FormSubmit for emails. -->
+        <input type="hidden" name="_template" value="table" />
+        <!-- Custom subject line -->
+        <input type="hidden" name="_subject" value="Ronni Davis Contact Form Inquiry" />
+        <label class="form-label" for="name">
+          Name:
+          <span class="required-field" aria-hidden="true">*</span>
+          <span class="sr-only">(required)</span>
+        </label>
+        <input class="contact-field" type="text" id="name" name="name" required />
+        <label class="form-label" for="email">
+          Email:
+          <span class="required-field">*</span>
+          <span class="sr-only">(required)</span>
+        </label>
+        <input class="contact-field" type="email" id="email" name="email" required />
+        <label class="form-label" for="message">
+          Your Comment or Message:
+          <span class="required-field">*</span>
+          <span class="sr-only">(required)</span>
+        </label>
+        <textarea class="message-field" id="message" name="message" maxlength="1600" placeholder="Maximum 250 words (around 1600 characters)" required></textarea>
+        <p aria-hidden="true"><span class="required-field">*</span>Required field.</p>
+        <button type="submit" class="contact-me">
+          Send Message
+        </button>
+      </form>
+    </div>
+    <div class="footer-content">
+      <a href="links.html">IMPORTANT LINKS</a>
+      <div class="footer-text">Copyright 2025 Ronica Davis. Designed by <a href="https://wandamccrae.com/freelance" target="_blank" rel="noopener noreferrer">Wanda McCrae</a>.</div>
+    </div>
+  </body>
+</html>
