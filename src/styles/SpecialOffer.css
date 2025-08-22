@@ -19,6 +19,12 @@ p {
   text-align: center;
 }
 
+.offer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .offer-details {
   padding: 20px;
 }
@@ -45,7 +51,8 @@ p {
   }
 
   .offer-details {
-    padding: 20px 450px;
+
+    padding: 20px;
   }
 
   p {
