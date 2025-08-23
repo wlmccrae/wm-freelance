@@ -27,11 +27,19 @@
   .sample-sites {
     font-size: 18px;
   }
+
+  .sample p {
+    font-size: 18px;
+  }
 }
 
 /* Responsive CSS for the largest screens */
 @media screen and (width >= 1000px) {
   .sample-sites {
+    font-size: 20px;
+  }
+
+  .sample p {
     font-size: 20px;
   }
 }

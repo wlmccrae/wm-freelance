@@ -7,29 +7,58 @@
 }
 
 .welcome-message {
-  padding: 10px 0;
-  margin: 0;
+  margin: 10px;
+  text-align: left;
+  color: black;
+}
+
+.checklist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checklist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .checklist {
   margin: 0 15px;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main-content-img {
+  object-fit: contain;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.image1 {
+  padding-left: 20px;
+  max-height: 150px;
+}
+
+.image2 {
+  max-height: 150px;
+  margin-left: -100px;
+  margin-top: 10px;
 }
 
 .welcome-nav-link {
   background-color: #2983bc;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 3px 10px;
   color: #ffffff;
   text-decoration: none;
-}
-
-.main-content-img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
 }
 
 /* Responsive CSS for iPad and larger screens */
@@ -38,8 +67,18 @@
     font-size: 35px;
   }
 
-  .main-content-img {
-    padding-top: 20px;
+  .welcome-message {
+    margin: 15px;
+  }
+
+  .image1 {
+    padding-left: 20px;
+    max-height: 220px;
+  }
+
+  .image2 {
+    max-height: 230px;
+    margin-top: 20px;
   }
 }
 
@@ -56,5 +95,14 @@
   .checklist {
     margin: 0;
     padding: 5px 30px 0;
+    font-size: 22px;
+  }
+
+  .image1 {
+    max-height: 300px;
+  }
+
+  .image2 {
+    max-height: 300px;
   }
 }

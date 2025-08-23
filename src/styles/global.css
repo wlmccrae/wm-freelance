@@ -12,7 +12,7 @@ body {
   text-align: left;
   color: #184B6C;
   width: 100%;
-  /* background-image: url('../assets/code-img.png');
+  /* background-image: url('../assets/codesample.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -42,10 +42,11 @@ body {
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
   body {
-      font-size: 16px;
+      font-size: 18px;
   }
 
   .freelance-page {
+    margin: 0 10px;
     padding: 20px 25px;
   }
 
@@ -62,7 +63,7 @@ body {
 /* Responsive CSS for the largest screens */
 @media screen and (width >= 1000px) {
   body {
-      font-size: 20px;
+      font-size: 22px;
   }
 
   .freelance-page {

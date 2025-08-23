@@ -1,11 +1,20 @@
+.contact-container {
+  max-width: 85%
+}
+
+.contact-container p {
+  font-size: 12px;
+}
+
 .contact-instructions {
-  text-align: justify;
+  margin-bottom: 10px;
 }
 
 .contact-instructions p {
   padding: 0;
   margin: 0;
   margin-bottom: 7px;
+  text-align: left;
 }
 
 .contact-form {
@@ -41,8 +50,9 @@
   color: #ffffff;
   border-radius: 10px;
   margin-top: 5px;
-  padding: 5px 10px;
+  padding: 3px 10px;
   width: fit-content;
+  font-size: 12px;
 }
 
 .required-field {
@@ -52,6 +62,10 @@
 
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
+  .contact-container p {
+    font-size: 15px;
+  }
+
   .contact-instructions {
     margin-bottom: 10px;
   }
@@ -72,7 +86,15 @@
 
 /* Responsive CSS for the largest screens */
 @media screen and (width >= 800px) {
-  .contact-me {
-    font-size: 20px;
+  .contact-container {
+    margin: 0 20px;
+  }
+
+  .contact-container p {
+    font-size: 18px;
+  }
+
+  .contact-instructions {
+    margin-bottom: 20px;
   }
 }

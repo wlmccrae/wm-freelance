@@ -27,11 +27,11 @@ function Samples() {
           <p>This very site you are on is an example of a GROWTH WEBSITE with an EXTRA PAGE (no scripting) and a CONTACT PAGE.</p>
         </div>
         <div className="sample">
-          <a className="sample-project-link" href="https://itstheweather.netlify.app/" target="_blank" rel="noopener noreferrer">- Simple Weather - Local Time & Weather for Any U.S. City</a>
+          <a className="sample-project-link" href="https://itstheweather.netlify.app/" target="_blank" rel="noopener noreferrer">- Simple Weather: Local Time & Weather for Any U.S. City</a>
           <p>GROWTH PACKAGE: GROWTH WEBSITE that includes scripting.</p>
         </div>
         <div className="sample">
-          <a className="sample-project-link" href="https://wlmccrae.github.io/headline-editor-ghpage/" target="_blank" rel="noopener noreferrer">- Headline Editor - Play with NY Times Headlines from the Archives</a>
+          <a className="sample-project-link" href="https://wlmccrae.github.io/headline-editor-ghpage/" target="_blank" rel="noopener noreferrer">- Headline Editor: Play with NY Times Headlines from the Archives</a>
           <p>GROWTH PACKAGE: GROWTH WEBSITE with advanced scripting.</p>
         </div>
       </div>
