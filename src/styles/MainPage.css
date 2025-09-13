@@ -8,7 +8,7 @@
 
 .welcome-message {
   margin: 10px;
-  text-align: left;
+  text-align: justify;
   color: black;
 }
 
@@ -56,7 +56,7 @@
 .welcome-nav-link {
   background-color: #2983bc;
   border-radius: 10px;
-  padding: 3px 10px;
+  padding: 1px 7px;
   color: #ffffff;
   text-decoration: none;
 }

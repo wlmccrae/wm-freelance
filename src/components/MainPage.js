@@ -36,7 +36,7 @@ function MainPage() {
           <img className="main-content-img image2" src={teaShoppeImage} alt="Tea Shoppe Screenshot" />
         </div>
         <div className="welcome-message">
-          See examples of my work here: <NavLink to='samples' className='welcome-nav-link'>Sample Sites</NavLink>
+          <NavLink to='samples' className='welcome-nav-link'>See examples of my work.</NavLink>
         </div>
         <div className="welcome-message">
           Get a simple, effective online presence without the agency price tag. <NavLink to='contact' className='welcome-nav-link'>Message me</NavLink> to get started!
