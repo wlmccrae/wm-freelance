@@ -11,6 +11,14 @@ function Samples() {
         <div className="sample">
           <a
             className="sample-project-link"
+            href="https://wandamccrae.com" target="_blank" rel="noopener noreferrer">
+            - Wanda McCrae
+          </a>
+          <p>My portfolio website is a BASIC WEBSITE. I built that too, and I did it with only one page.</p>
+        </div>
+        <div className="sample">
+          <a
+            className="sample-project-link"
             href="/projects/tea-shoppe/index.html" target="_blank" rel="noopener noreferrer">
             - Lotus Blossom Tea Shoppe
           </a>
