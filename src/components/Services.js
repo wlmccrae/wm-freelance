@@ -7,6 +7,9 @@ function Services () {
         <div className="freelance-page-title">
           Prices and Services
         </div>
+        <div className="page-description">
+          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Save thousands of dollars by working with me to design and build your small business' site. Compare that hefty price tag to my prices:
+        </div>
       </div>
       <div className="prices-table">
         <div className="service-name">BASIC WEBSITE</div>

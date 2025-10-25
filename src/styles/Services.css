@@ -1,3 +1,14 @@
+.page-description {
+  margin: 10px 20px;
+  color: black;
+  text-align: left;
+  text-justify: justify;
+}
+
+.emphasis {
+  font-weight: 600;
+}
+
 .prices-table {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
