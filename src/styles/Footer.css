@@ -10,17 +10,9 @@
     text-align: right;
     color: #e7e7e7;
     font-style: italic;
-    font-size: 12px;
 }
 
 .footer-nav-link {
   color: #e7e7e7;
   text-decoration: none;
-}
-
-/* Responsive CSS for iPad and larger screens */
-@media screen and (width >= 800px) {
-  .footer p {
-    font-size: 17px;
-  }
 }

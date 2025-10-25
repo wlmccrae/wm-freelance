@@ -1,20 +1,23 @@
 .special-offer {
-  font-family: 'Overlock';
+  font-family: "Overlock", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px 15px;
   text-align: center;
 }
 
 h2 {
-  margin: 0 0 0 40px;
+  margin: 0;
 }
 
 p {
   font-style: italic;
-  font-size: 15px;
   color: black;
   text-align: center;
 }
@@ -27,6 +30,12 @@ p {
 
 .offer-details {
   padding: 20px;
+  background-color: #2983bc;
+  border: 2px double #000;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  color: #fff;
 }
 
 .bullet {
@@ -35,27 +44,11 @@ p {
 
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
-  .offer-details {
-    padding: 20px 200px;
-  }
-}
-
-/* Responsive CSS for the largest screens */
-@media screen and (width >= 1000px) {
   h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .offer-details {
-
     padding: 20px;
-  }
-
-  p {
-    font-size: 25px;
   }
 }

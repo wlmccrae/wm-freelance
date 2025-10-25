@@ -7,10 +7,10 @@ function MainPage() {
   return (
     <div className="freelance-page">
       <div className="freelance-title-container">
-        <div className="main-page-title">
+        <div className="freelance-page-title">
           Your Business Needs a Website
         </div>
-        <div className="main-page-title">
+        <div className="freelance-page-title">
           Let's Keep It Simple & Effective
         </div>
       </div>
