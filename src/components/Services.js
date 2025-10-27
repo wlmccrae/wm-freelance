@@ -8,7 +8,7 @@ function Services () {
           Prices and Services
         </div>
         <div className="page-description">
-          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Save thousands of dollars by working with me to design and build your small business' site. Compare that hefty price tag to my prices:
+          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to design and build your small business' site. Compare that hefty price tag to my prices:
         </div>
       </div>
       <div className="prices-table">
@@ -32,7 +32,7 @@ function Services () {
         <div className="price">$59USD</div>
         <div className="service-name">SITE MAINTENANCE</div>
         <div className="description">For sites we built: content updates (text, images) and minor bug fixes (broken links, mobile responsiveness checks).</div>
-        <div className="price">$99USD/year<br></br>$68USD/every six months</div>
+        <div className="price">$399USD/year<br></br>$249USD/every six months</div>
       </div>
       <hr className="prices-hr" />
       <div className="freelance-title-container">
