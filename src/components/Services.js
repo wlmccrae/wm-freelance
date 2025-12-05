@@ -5,7 +5,7 @@ function Services () {
     <div className="freelance-page">
       <div className="freelance-title-container">
         <div className="freelance-page-title">
-          Prices and Services
+          Web Development and Maintenance
         </div>
         <div className="page-description">
           Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Additionally, having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to build and maintain your site. Compare that hefty price tag to my prices:
@@ -32,7 +32,10 @@ function Services () {
         <div className="price">$59USD</div>
         <div className="service-name">SITE MAINTENANCE</div>
         <div className="description">For sites we built: content updates (text, images) and minor bug fixes (broken links, mobile responsiveness checks).</div>
-        <div className="price">$399USD/year<br></br>$249USD/every six months</div>
+        <div className="price">$399USD/year<br></br>$249USD/six months</div>
+        <div className="service-name">SITE MAINTENANCE TRAINING</div>
+        <div className="description">Prefer to take a hands-on approach? I will give you a one-time training session to teach you how to access and maintain your own site.</div>
+        <div className="price">$199USD</div>
       </div>
       <hr className="prices-hr" />
       <div className="freelance-title-container">
@@ -57,30 +60,19 @@ function Services () {
           Domain Hosting Setup (Bluehost)
         </div>
         <div className="page-description">
-          If you do not already have a domain and hosting setup for your website, I can do that for you.
+          If you do not already have a domain and hosting setup for your website, I can do that for you. For ease of setup and maintenance, I recommend Bluehost.
         </div>
       </div>
       <div className="prices-table">
         <div className="service-name">DOMAIN NAME REGISTRATION</div>
-        <div className="description">1st year free, then approximately $14.99 annually with Bluehost.</div>
-        <div className="price">$0USD</div>
+        <div className="description">This is for the most basic domain name registration and will be paid directly to Bluehost.</div>
+        <div className="price">$0USD first year<br></br>$14.99USD annually</div>
         <div className="service-name">1 YEAR OF BASIC WEB HOSTING</div>
-        <div className="description">1st year discount, then approximately $144 annually.</div>
-        <div className="price">$59.88USD</div>
+        <div className="description">For a basic one year hosting plan. Multi-year and other hosting plans are also available and will be paid directly to Bluehost.</div>
+        <div className="price">$59.88USD first year<br></br>$144USD annually</div>
         <div className="service-name">PROFESSIONAL SETUP FEE</div>
         <div className="description">I will set up your domain and web hosting account for you.</div>
         <div className="price">$149USD</div>
-      </div>
-      <hr className="prices-hr" />
-      <div className="freelance-title-container">
-        <div className="freelance-page-title">
-          Special
-        </div>
-      </div>
-      <div className="prices-table">
-        <div className="service-name">GROWTH PACKAGE</div>
-        <div className="description">GROWTH WEBSITE that includes scripting. A $100 savings over adding an EXTRA PAGE with scripting.</div>
-        <div className="price">$498USD</div>
       </div>
     </div>
   );
