@@ -8,7 +8,7 @@ function Services () {
           Prices and Services
         </div>
         <div className="page-description">
-          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to design and build your small business' site. Compare that hefty price tag to my prices:
+          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a web design agency can start at $2,500USD!</span> Additionally, having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to build and maintain your site. Compare that hefty price tag to my prices:
         </div>
       </div>
       <div className="prices-table">
@@ -33,6 +33,43 @@ function Services () {
         <div className="service-name">SITE MAINTENANCE</div>
         <div className="description">For sites we built: content updates (text, images) and minor bug fixes (broken links, mobile responsiveness checks).</div>
         <div className="price">$399USD/year<br></br>$249USD/every six months</div>
+      </div>
+      <hr className="prices-hr" />
+      <div className="freelance-title-container">
+        <div className="freelance-page-title">
+          Business Name Registration
+        </div>
+        <div className="page-description">
+          If you are a brand new business and still need a business name registered in your city, I can help you acquire and register a business name.
+        </div>
+      </div>
+      <div className="prices-table">
+        <div className="service-name">BUSINESS NAME SEARCH</div>
+        <div className="description">If you do not already have a business name, I can see if the name you want is available for you.</div>
+        <div className="price">$99USD</div>
+        <div className="service-name">REGISTER BUSINESS NAME</div>
+        <div className="description">Register your business name with your city.</div>
+        <div className="price">$199USD</div>
+      </div>
+      <hr className="prices-hr" />
+      <div className="freelance-title-container">
+        <div className="freelance-page-title">
+          Domain Hosting Setup (Bluehost)
+        </div>
+        <div className="page-description">
+          If you do not already have a domain and hosting setup for your website, I can do that for you.
+        </div>
+      </div>
+      <div className="prices-table">
+        <div className="service-name">DOMAIN NAME REGISTRATION</div>
+        <div className="description">1st year free, then approximately $14.99 annually with Bluehost.</div>
+        <div className="price">$0USD</div>
+        <div className="service-name">1 YEAR OF BASIC WEB HOSTING</div>
+        <div className="description">1st year discount, then approximately $144 annually.</div>
+        <div className="price">$59.88USD</div>
+        <div className="service-name">PROFESSIONAL SETUP FEE</div>
+        <div className="description">I will set up your domain and web hosting account for you.</div>
+        <div className="price">$149USD</div>
       </div>
       <hr className="prices-hr" />
       <div className="freelance-title-container">
