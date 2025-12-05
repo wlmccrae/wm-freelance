@@ -15,7 +15,7 @@ function Contact() {
         <form id="contact-form" className="contact-form" action="https://formsubmit.co/5ad9be0a6931540c37c47d5e84cee4d2" method="POST">
           <div className="contact-form-row">
             {/* After submitting the form, send users to the Thanks page. */}
-            <input type="hidden" name="_next" value="https://wandamccrae.com/freelance/thanks" />
+            <input type="hidden" name="_next" value="https://freelance.wandamccrae.com/thanks" />
             {/* Use the table template from FormSubmit for emails */}
             <input type="hidden" name="_template" value="table" />
             {/* Custom subject line */}
