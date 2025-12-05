@@ -65,13 +65,13 @@ function Services () {
       </div>
       <div className="prices-table">
         <div className="service-name">DOMAIN NAME REGISTRATION</div>
-        <div className="description">This is for the most basic domain name registration and will be paid directly to Bluehost.</div>
+        <div className="description">This is for the most basic domain name registration. Fees are paid directly to Bluehost.</div>
         <div className="price">$0USD first year<br></br>$14.99USD annually</div>
         <div className="service-name">1 YEAR OF BASIC WEB HOSTING</div>
-        <div className="description">For a basic one year hosting plan. Multi-year and other hosting plans are also available and will be paid directly to Bluehost.</div>
+        <div className="description">For a basic one year hosting plan. Multi-year and other hosting plans are also available. Fees are paid directly to Bluehost.</div>
         <div className="price">$59.88USD first year<br></br>$144USD annually</div>
         <div className="service-name">PROFESSIONAL SETUP FEE</div>
-        <div className="description">I will set up your domain and web hosting account for you.</div>
+        <div className="description">I will set up your domain and web hosting account for you, with the domain name and/or hosting fees paid directly to Bluehost.</div>
         <div className="price">$149USD</div>
       </div>
     </div>
