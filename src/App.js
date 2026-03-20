@@ -30,10 +30,11 @@ function App() {
   }
 
   return (
-    <div className={`app-container${dyslexiaMode ? ' dyslexia-mode' : ''}`} style={dyslexiaMode ? { backgroundColor: '#f8f5f0' } : {}}>
+    <div className={`app-container${dyslexiaMode ? ' dyslexia-mode' : ''}`} style={dyslexiaMode ? { backgroundColor: '#fdf0d5' } : {}}>
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <BrowserRouter>
         <Header dyslexiaMode={dyslexiaMode} toggleDyslexiaMode={toggleDyslexiaMode} />
-        <div className="main-content" style={dyslexiaMode ? { backgroundColor: '#f8f5f0' } : {}}>
+        <div id="main-content" tabIndex={-1} className="main-content" style={dyslexiaMode ? { backgroundColor: '#fdf0d5' } : {}}>
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="services" element={<Services />} />

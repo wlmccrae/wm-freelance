@@ -79,6 +79,23 @@ body.dyslexia-mode p {
   }
 }
 
+/* Skip navigation link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  background: #184B6C;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* Visually hidden but available to screen readers */
 .sr-only {
   position: absolute;

@@ -1,20 +1,22 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import '../styles/Header.css';
 import wmLogo from '../assets/wm-logo.png';
 
 function Header({ dyslexiaMode, toggleDyslexiaMode }) {
+  const { pathname } = useLocation();
+
   return (
     <header className="header">
       <div className="header-center">
         <img className="my-logo" src={wmLogo} alt="Wanda McCrae Freelance Web Developer Logo" />
         <div className="header-text">
-          <h1 className="my-name">Wanda McCrae</h1>
-          <h2 className="my-title">Freelance Web Developer</h2>
-          <nav className="contact">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="samples">Sample Sites</NavLink>
-            <NavLink to="services">Pricing</NavLink>
-            <NavLink to="contact">Contact</NavLink>
+          <p className="my-name">Wanda McCrae</p>
+          <p className="my-title">Freelance Web Developer</p>
+          <nav className="contact" aria-label="Main navigation">
+            <NavLink to="/" aria-current={pathname === '/' ? 'page' : undefined}>Home</NavLink>
+            <NavLink to="samples" aria-current={pathname === '/samples' ? 'page' : undefined}>Sample Sites</NavLink>
+            <NavLink to="services" aria-current={pathname === '/services' ? 'page' : undefined}>Pricing</NavLink>
+            <NavLink to="contact" aria-current={pathname === '/contact' ? 'page' : undefined}>Contact</NavLink>
           </nav>
         </div>
       </div>

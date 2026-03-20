@@ -15,9 +15,9 @@ function Services () {
         <caption className="sr-only">Web Development and Maintenance pricing</caption>
         <thead>
           <tr>
-            <th>Service</th>
-            <th>Description</th>
-            <th>Price</th>
+            <th scope="col">Service</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
@@ -76,9 +76,9 @@ function Services () {
         <caption className="sr-only">Business Name Registration pricing</caption>
         <thead>
           <tr>
-            <th>Service</th>
-            <th>Description</th>
-            <th>Price</th>
+            <th scope="col">Service</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
@@ -107,9 +107,9 @@ function Services () {
         <caption className="sr-only">Domain Hosting Setup pricing</caption>
         <thead>
           <tr>
-            <th>Service</th>
-            <th>Description</th>
-            <th>Price</th>
+            <th scope="col">Service</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
