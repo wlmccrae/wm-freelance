@@ -34,10 +34,7 @@ function MainPage() {
           <img className="main-content-img image2" src={teaShoppeImage} alt="Screenshot of Lotus Blossom Tea Shoppe website" />
         </div>
         <p className="welcome-message">
-          <NavLink to='samples' className='welcome-nav-link'>See examples of my work.</NavLink>
-        </p>
-        <p className="welcome-message">
-          Get a simple, effective online presence without the agency price tag. <NavLink to='contact' className='welcome-nav-link'>Message me</NavLink> to get started!
+          Get a simple, effective online presence without the agency price tag. <NavLink to='contact' className='welcome-nav-link'>Contact me</NavLink> to get started!
         </p>
       </div>
     </main>

@@ -12,7 +12,7 @@ function Header({ dyslexiaMode, toggleDyslexiaMode }) {
         <div className="header-text">
           <p className="my-name">Wanda McCrae</p>
           <p className="my-title">Freelance Web Developer</p>
-          <nav className="contact" aria-label="Main navigation">
+          <nav className="main-navigation" aria-label="Main navigation">
             <NavLink to="/" aria-current={pathname === '/' ? 'page' : undefined}>Home</NavLink>
             <NavLink to="samples" aria-current={pathname === '/samples' ? 'page' : undefined}>Sample Sites</NavLink>
             <NavLink to="services" aria-current={pathname === '/services' ? 'page' : undefined}>Pricing</NavLink>

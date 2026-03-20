@@ -15,7 +15,7 @@ CI/CD: deployed from GitHub Repository to Netlify.
 
 ## Features
 - Mobile-first responsive design
-- Dyslexia-friendly mode — toggleable from the header; applies the Lexend font, increased letter/word spacing, taller line height, and a warm background colour; preference is saved to `localStorage`
+- Dyslexia-friendly mode — toggleable from the header (below the nav on phone screens, far right on larger screens); applies the Lexend font, increased letter/word spacing, taller line height, and a warm background colour; preference is saved to `localStorage`
 - Screen reader accessibility — skip navigation link, ARIA landmarks and labels, `aria-current` on active nav links, table column scopes, single `h1` per page
 
 ## Pages

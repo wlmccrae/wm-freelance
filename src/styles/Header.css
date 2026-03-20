@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   background-color: #2983bc;
@@ -29,16 +29,18 @@
 .my-name {
   font-family: "Overlock", sans-serif;
   font-weight: 900;
-  padding: 10px 0 0;
+  padding: 2px 0 0;
   font-size: 20px;
+  margin: 0;
 }
 
 .my-title {
   padding: 3px 0;
   font-style: italic;
+  margin: 0;
 }
 
-.contact {
+.main-navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -65,11 +67,10 @@
   gap: 6px;
   color: #e6e9f0;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   white-space: nowrap;
-  position: absolute;
-  right: 8px;
+  padding: 2px 0 8px;
   user-select: none;
 }
 
@@ -123,15 +124,54 @@ body.dyslexia-mode .header-center {
   gap: 18px;
 }
 
+body.dyslexia-mode .my-name {
+  font-size: 23px;
+  margin: 0;
+  padding: 2px 0 0;
+}
+
+body.dyslexia-mode .my-title {
+  font-size: 14px;
+  margin: 0;
+  padding: 2px 0;
+}
+
+body.dyslexia-mode .main-navigation {
+  font-size: 12px;
+}
+
 @media screen and (width >= 800px) {
   body.dyslexia-mode .my-logo {
     max-width: 76px;
     max-height: 76px;
   }
+
+  body.dyslexia-mode .my-name {
+    font-size: 30px;
+  }
+
+  body.dyslexia-mode .my-title {
+    font-size: 16px;
+  }
+
+  body.dyslexia-mode .main-navigation {
+    font-size: 16px;
+  }
 }
 
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
+  .header {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .dyslexia-toggle {
+    position: absolute;
+    right: 8px;
+    padding: 0;
+  }
+
   .my-logo {
     margin-right: 0;
     padding: 0 10px;
@@ -140,7 +180,7 @@ body.dyslexia-mode .header-center {
   }
 
   .my-name {
-    padding: 15px 0 0;
+    padding: 7px 0 0;
     font-size: 27px;
   }
 
@@ -148,9 +188,9 @@ body.dyslexia-mode .header-center {
     padding: 0;
   }
 
-  .contact {
-    font-size: 14px;
+  .main-navigation {
+    font-size: 12px;
     gap: 10px;
-    padding: 10px 0;
+    padding: 7px 0;
   }
 }
