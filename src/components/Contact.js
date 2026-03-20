@@ -3,9 +3,9 @@ import '../styles/Contact.css';
 
 function Contact() {
   return (
-    <div className="freelance-page">
+    <main className="freelance-page">
       <div className="freelance-title-container">
-        <div className="freelance-page-title">Contact Me</div>
+        <h1 className="freelance-page-title">Contact Me</h1>
       </div>
       <div className="contact-container">
         <div className="contact-instructions">
@@ -20,7 +20,7 @@ function Contact() {
             <input type="hidden" name="_template" value="table" />
             {/* Custom subject line */}
             <input type="hidden" name="_subject" value="Freelance Web Developer Inquiry" />
-            <label htmlFor="name">Your Name<span className="required-field">*</span>: </label>
+            <label htmlFor="name">Your Name<span className="required-field" aria-hidden="true">*</span>: </label>
             <input
               className="form-input"
               // onChange={handleChange}
@@ -28,10 +28,11 @@ function Contact() {
               name="name"
               // value={contactFormData.name}
               required
+              aria-required="true"
             />
           </div>
           <div className="contact-form-row">
-            <label htmlFor="email">Your Email<span className="required-field">*</span>: </label>
+            <label htmlFor="email">Your Email<span className="required-field" aria-hidden="true">*</span>: </label>
             <input
               className="form-input"
               // onChange={handleChange}
@@ -40,9 +41,10 @@ function Contact() {
               name="email"
               // value={contactFormData.email}
               required
+              aria-required="true"
             />
           </div>
-          <label htmlFor="name">Message<span className="required-field">*</span>:</label>
+          <label htmlFor="message">Message<span className="required-field" aria-hidden="true">*</span>:</label>
           <textarea
             className="message-field"
             // onChange={handleChange}
@@ -50,6 +52,7 @@ function Contact() {
             name="message"
             // value={contactFormData.message}
             required
+            aria-required="true"
           />
           <p><span className="required-field">*</span>Required field.</p>
           <button type="submit" className="contact-me">
@@ -57,7 +60,7 @@ function Contact() {
           </button>
         </form>
       </div>
-    </div>
+    </main>
   )
 
 };

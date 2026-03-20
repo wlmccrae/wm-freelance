@@ -5,44 +5,42 @@ import codeSample from '../assets/codesample2.png';
 
 function MainPage() {
   return (
-    <div className="freelance-page">
+    <main className="freelance-page">
       <div className="freelance-title-container">
-        <div className="freelance-page-title">
+        <h1 className="freelance-page-title">
           Your Business Needs a Website
-        </div>
-        <div className="freelance-page-title">
+        </h1>
+        <h2 className="freelance-page-title">
           Let's Keep It Simple & Effective
-        </div>
+        </h2>
       </div>
       <div className="freelance-content-container">
-        <div className="welcome-message">
+        <p className="welcome-message">
           No website? Outdated site? You don't need a complicated (or expensive) solution. I specialize in quick, clean, and professional small business websites&mdash;just 2-3 pages to showcase what you do and help customers find you.
-        </div>
-        <div className="checklist-container">
-          <div className="checklist-item">
-            <div className="checklist">
-              ✔ Fast & Affordable &mdash; No bloated features, just what you need.
-            </div>
-            <div className="checklist">
-              ✔ Mobile-Friendly &mdash; Looks great on phones and desktops.
-            </div>
-            <div className="checklist">
-              ✔ Zero Stress &mdash; I handle the tech; you focus on your business.
-            </div>
-          </div>
-        </div>
+        </p>
+        <ul className="checklist-container">
+          <li className="checklist-item">
+            <span aria-hidden="true">✔</span> Fast &amp; Affordable &mdash; No bloated features, just what you need.
+          </li>
+          <li className="checklist-item">
+            <span aria-hidden="true">✔</span> Mobile-Friendly &mdash; Looks great on phones and desktops.
+          </li>
+          <li className="checklist-item">
+            <span aria-hidden="true">✔</span> Zero Stress &mdash; I handle the tech; you focus on your business.
+          </li>
+        </ul>
         <div className="img-container">
-          <img className="main-content-img image1" src={codeSample} alt="code screenshot" />
-          <img className="main-content-img image2" src={teaShoppeImage} alt="Tea Shoppe Screenshot" />
+          <img className="main-content-img image1" src={codeSample} alt="Screenshot of clean, professional website code" />
+          <img className="main-content-img image2" src={teaShoppeImage} alt="Screenshot of Lotus Blossom Tea Shoppe website" />
         </div>
-        <div className="welcome-message">
+        <p className="welcome-message">
           <NavLink to='samples' className='welcome-nav-link'>See examples of my work.</NavLink>
-        </div>
-        <div className="welcome-message">
+        </p>
+        <p className="welcome-message">
           Get a simple, effective online presence without the agency price tag. <NavLink to='contact' className='welcome-nav-link'>Message me</NavLink> to get started!
-        </div>
+        </p>
       </div>
-    </div>
+    </main>
   );
 };
 

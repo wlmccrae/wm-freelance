@@ -1,13 +1,13 @@
 function Thanks() {
   return (
-    <div className="freelance-page">
+    <main className="freelance-page">
       <div className="freelance-title-container">
-        <div className="freelance-page-title">
+        <h1 className="freelance-page-title">
           Thank you for your message!
-        </div>
+        </h1>
       </div>
-      I look forward to speaking with you soon.
-    </div>
+      <p>I look forward to speaking with you soon.</p>
+    </main>
   )
 };
 
