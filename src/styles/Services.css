@@ -12,11 +12,26 @@
 .prices-table {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-auto-rows: minmax(100px auto);
+  grid-auto-rows: auto;
   gap: 5px;
   margin: 10px 0;
   width: 100%;
   box-sizing: border-box;
+}
+
+.prices-table thead,
+.prices-table tbody,
+.prices-table tr {
+  display: contents;
+}
+
+.prices-table th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.prices-table th:last-child {
+  text-align: center;
 }
 
 .price {
@@ -34,4 +49,12 @@
 
 .prices-hr {
   width: 100%;
+}
+
+/* Dyslexia mode: preserve table column alignment */
+body.dyslexia-mode .prices-table th,
+body.dyslexia-mode .prices-table td {
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: 1.5;
 }

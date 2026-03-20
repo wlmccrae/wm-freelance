@@ -2,10 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+:root {
+  --page-bg: #ffffff;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: var(--page-bg);
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -23,6 +29,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 10px 15px;
+  background-color: var(--page-bg);
 }
 
 .freelance-title-container {
@@ -35,6 +42,41 @@ p {
   font-size: 20px;
   font-weight: 700;
   color: #2983bc;
+}
+
+/* Dyslexia mode */
+body.dyslexia-mode,
+body.dyslexia-mode p,
+body.dyslexia-mode li,
+body.dyslexia-mode a,
+body.dyslexia-mode h1,
+body.dyslexia-mode h2,
+body.dyslexia-mode h3 {
+  font-family: 'Lexend', sans-serif !important;
+  font-style: normal !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  line-height: 1.8;
+}
+
+body.dyslexia-mode {
+  background-color: #fdf0d5;
+  font-size: 14px;
+}
+
+body.dyslexia-mode .freelance-page {
+  background-color: #fdf0d5;
+}
+
+body.dyslexia-mode p {
+  font-size: 14px;
+}
+
+@media screen and (width >= 800px) {
+  body.dyslexia-mode,
+  body.dyslexia-mode p {
+    font-size: 16px;
+  }
 }
 
 /* Visually hidden but available to screen readers */

@@ -1,14 +1,20 @@
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 10px;
   background-color: #2983bc;
   color: #e7e7e7;
   top: 0;
-  }
+  position: relative;
+}
+
+.header-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
 
 .my-logo {
   padding: 0 5px;
@@ -51,6 +57,77 @@
 
 .header a:visited {
   color: #e6e9f0;
+}
+
+.dyslexia-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e6e9f0;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  position: absolute;
+  right: 8px;
+  user-select: none;
+}
+
+.dyslexia-toggle input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-track {
+  display: inline-flex;
+  align-items: center;
+  width: 32px;
+  height: 18px;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.3);
+  flex-shrink: 0;
+  transition: background-color 0.2s;
+}
+
+.dyslexia-toggle input:checked + .toggle-track {
+  background-color: #e6e9f0;
+}
+
+.toggle-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 3px;
+  transition: transform 0.2s;
+}
+
+.dyslexia-toggle input:checked + .toggle-track .toggle-thumb {
+  transform: translateX(14px);
+  background-color: #2983bc;
+}
+
+.dyslexia-toggle:hover .toggle-track {
+  opacity: 0.85;
+}
+
+/* Dyslexia mode adjustments */
+body.dyslexia-mode .my-logo {
+  max-width: 62px;
+  max-height: 62px;
+}
+
+body.dyslexia-mode .header-center {
+  gap: 18px;
+}
+
+@media screen and (width >= 800px) {
+  body.dyslexia-mode .my-logo {
+    max-width: 76px;
+    max-height: 76px;
+  }
 }
 
 /* Responsive CSS for iPad and larger screens */
