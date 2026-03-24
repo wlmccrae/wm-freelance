@@ -15,7 +15,7 @@ function Samples() {
             aria-label="Wanda McCrae (opens in new tab)">
             <span aria-hidden="true">- </span>Wanda McCrae
           </a>
-          <p>My portfolio website is a BASIC WEBSITE. I built that too, and I did it with only one page.</p>
+          <p>My portfolio is a one-page BASIC WEBSITE.</p>
         </div>
         <div className="sample">
           <a
@@ -34,7 +34,7 @@ function Samples() {
           <NavLink className="sample-project-link" to="/">
             <span aria-hidden="true">- </span>Wanda McCrae &mdash; Freelance Web Developer
           </NavLink>
-          <p>This very site you are on is an example of a GROWTH WEBSITE with an EXTRA PAGE (no scripting) and a CONTACT PAGE.</p>
+          <p>This site is a GROWTH WEBSITE with an EXTRA PAGE (no scripting) and a CONTACT PAGE.</p>
         </div>
         <div className="sample">
           <a className="sample-project-link" href="https://itstheweather.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Simple Weather: Local Time and Weather for Any U.S. City (opens in new tab)"><span aria-hidden="true">- </span>Simple Weather: Local Time &amp; Weather for Any U.S. City</a>
@@ -43,6 +43,10 @@ function Samples() {
         <div className="sample">
           <a className="sample-project-link" href="https://wlmccrae.github.io/headline-editor-ghpage/" target="_blank" rel="noopener noreferrer" aria-label="Headline Editor: Play with NY Times Headlines from the Archives (opens in new tab)"><span aria-hidden="true">- </span>Headline Editor: Play with NY Times Headlines from the Archives</a>
           <p>GROWTH PACKAGE: GROWTH WEBSITE with advanced scripting.</p>
+        </div>
+        <div className="sample">
+          <a className="sample-project-link" href="https://scam-job-reporter.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Scam Job Reporter: Report scam job postings and recruiters anonymously (opens in new tab)"><span aria-hidden="true">- </span>Scam Job Reporter</a>
+          <p>Custom website with advanced scripting, Python backend, and SQL database. Prices will vary depending on the complexity of the project.</p>
         </div>
       </div>
     </main>
