@@ -42,10 +42,8 @@
 }
 
 .welcome-nav-link {
-  background-color: #2983bc;
-  border-radius: 10px;
-  padding: 1px 7px;
-  color: #ffffff;
+  color: #2983bc;
+  font-weight: bold;
   text-decoration: none;
 }
 

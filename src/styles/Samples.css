@@ -1,16 +1,25 @@
 .sample-sites {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   gap: 10px;
   padding-top: 10px;
-  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.sample {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  gap: 5px;
+  margin-bottom: 20px;
 }
 
 .sample p {
-  padding: 0 15px;
   margin: 0;
-  text-align: left;
 }
 
 .sample a {
@@ -21,4 +30,8 @@
 .sample-project-link {
   font-size: 14px;
   font-weight: 700;
+}
+
+.sampleImg {
+  max-height: 200px;
 }
