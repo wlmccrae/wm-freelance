@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import '../styles/Samples.css';
 import profileSite from '../assets/wandamccrae.png'
 import teaShoppe from '../assets/tea-shoppe-screenshot.png'
