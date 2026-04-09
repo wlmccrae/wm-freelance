@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(nvm ls:*)",
+      "Bash(brew list:*)",
+      "Read(//Users/wmccrae/**)"
+    ]
+  }
+}

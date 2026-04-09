@@ -11,7 +11,7 @@ CI/CD: deployed from GitHub to Netlify.
 
 ## Tech Stack
 
-- **React 19** with Create React App
+- **React 19** with Vite
 - **React Router v7** — client-side routing (SPA)
 - **CSS** — plain CSS, component-scoped stylesheets, mobile-first
 - **Google Fonts** — Overlock (branding), Roboto (body), Lexend (dyslexia mode)
@@ -69,26 +69,28 @@ Powered by [FormSubmit](https://formsubmit.co) — submissions are emailed direc
 ```
 wm-freelance/
 ├── public/
-│   ├── index.html
 │   ├── wm-logo.ico
 │   └── projects/              # Static HTML sample sites
 │       ├── tea-shoppe/
 │       └── ronni-davis/
 ├── src/
+│   ├── App.jsx                # Root: routing + dyslexia state
+│   ├── index.jsx              # Entry point
 │   ├── components/
-│   │   ├── App.js             # Root: routing + dyslexia state
-│   │   ├── Header.js          # Nav + dyslexia toggle
-│   │   ├── Footer.js
-│   │   ├── MainPage.js
-│   │   ├── Services.js        # Pricing tables
-│   │   ├── Samples.js         # Portfolio gallery
-│   │   ├── Contact.js         # FormSubmit contact form
-│   │   ├── Thanks.js
-│   │   └── SpecialOffer.js
+│   │   ├── Header.jsx         # Nav + dyslexia toggle
+│   │   ├── Footer.jsx
+│   │   ├── MainPage.jsx
+│   │   ├── Services.jsx       # Pricing tables
+│   │   ├── Samples.jsx        # Portfolio gallery
+│   │   ├── Contact.jsx        # FormSubmit contact form
+│   │   ├── Thanks.jsx
+│   │   └── SpecialOffer.jsx
 │   ├── styles/                # Component-scoped CSS files
 │   │   ├── global.css         # Global styles, dyslexia mode overrides
 │   │   └── *.css
 │   └── assets/                # Images and screenshots
+├── index.html                 # Vite entry HTML (root level)
+├── vite.config.js
 ├── netlify.toml               # Build config + SPA redirect rules
 └── package.json
 ```
@@ -99,9 +101,9 @@ wm-freelance/
 
 ```bash
 npm install
-npm start        # development server at http://localhost:3000
+npm run start    # Vite development server at http://localhost:3000
 npm run build    # production build → /build
-npm test         # run tests
+npm run preview  # preview the production build
 ```
 
 **Deployment:** Netlify automatically runs `npm run build` on push to the main branch and serves the `/build` directory. All routes redirect to `index.html` for SPA routing (configured in `netlify.toml`).
@@ -110,6 +112,7 @@ npm test         # run tests
 
 ## Revision History
 
-- **2025 July 17** — Updated pricing and header.
-- **2026 March** — Added dyslexia-friendly mode and screen reader accessibility improvements.
+- **2026 April 9** - Migrated from Create React App to Vite to modernize development and build processes.
 - **2026 March 31** — Cleaned up styling for Samples page and updated documentation.
+- **2026 March** — Added dyslexia-friendly mode and screen reader accessibility improvements.
+- **2025 July 17** — Updated pricing and header.
