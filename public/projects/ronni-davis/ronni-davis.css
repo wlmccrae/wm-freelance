@@ -88,18 +88,6 @@ a:visited {
   width: fit-content;
 }
 
-.intro-soon {
-  background-color: #eed9ea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
-  font-weight: 300;
-  font-style: normal;
-  color: #272262;
-  padding: 30px 60px;
-}
-
 .main-content {
   display: flex;
   flex-direction: row;
