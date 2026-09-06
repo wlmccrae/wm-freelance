@@ -1,9 +1,3 @@
-.welcome-message {
-  margin: 10px;
-  text-align: justify;
-  color: black;
-}
-
 .checklist-container {
   display: flex;
   flex-direction: column;

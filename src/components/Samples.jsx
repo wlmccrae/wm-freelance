@@ -13,6 +13,7 @@ function Samples() {
         <h1 className="freelance-page-title">
           Sample Sites
         </h1>
+        <p className="welcome-message">Here are some samples of my past work. In addition, I designed, developed, and continue to maintain this site.</p>
       </div>
       <div className="sample-sites">
         <div className="sample">
