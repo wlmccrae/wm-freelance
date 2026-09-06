@@ -6,6 +6,7 @@
 
 :root {
   --page-bg: #ffffff;
+  font-size: 14px; /* mobile-first design */
 }
 
 body {
@@ -13,15 +14,19 @@ body {
   padding: 0;
   background-color: var(--page-bg);
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
   text-align: left;
   color: #184B6C;
   width: 100%;
 }
 
-p {
-  font-size: 12px;
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 .freelance-page {
@@ -38,9 +43,12 @@ p {
   margin-bottom: 5px;
 }
 
+.freelance-content-container {
+  padding: 0 10px;
+}
+
 .freelance-page-title {
   font-family: "Overlock", sans-serif;
-  font-size: 20px;
   font-weight: 700;
   color: #2983bc;
 }
@@ -62,22 +70,10 @@ body.dyslexia-mode h3 {
 
 body.dyslexia-mode {
   background-color: #fdf0d5;
-  font-size: 14px;
 }
 
 body.dyslexia-mode .freelance-page {
   background-color: #fdf0d5;
-}
-
-body.dyslexia-mode p {
-  font-size: 14px;
-}
-
-@media screen and (width >= 800px) {
-  body.dyslexia-mode,
-  body.dyslexia-mode p {
-    font-size: 16px;
-  }
 }
 
 /* Skip navigation link */
@@ -110,17 +106,37 @@ body.dyslexia-mode p {
   border: 0;
 }
 
-/* Responsive CSS for iPad and larger screens */
-@media screen and (width >= 800px) {
-  body {
-    font-size: 14px;
+/* Modern smartphones */
+@media screen and (width >= 375px) {
+  :root {
+    font-size: 15px;
   }
+}
 
-  p {
-    font-size: 14px;
+/* Larger phones/small phablets */
+@media screen and (width >= 425px) {
+  :root {
+    font-size: 16px;
   }
+}
 
-  .freelance-page-title {
-    font-size: 25px;
+/* Tablets (Portrait Mode) */
+@media screen and (width >= 768px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+/* Tablets (Landscape Mode), laptops, and standard desktops */
+@media screen and (width >= 992px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+/* Large Desktops */
+@media screen and (width >= 1600px) {
+  :root {
+    font-size: 20px;
   }
 }

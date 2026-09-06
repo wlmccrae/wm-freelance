@@ -2,6 +2,7 @@
     background-color: #2983bc;
     padding: 10px;
     bottom: 0;
+    font-size: 0.7rem;
   }
 
 .footer p {
@@ -13,6 +14,9 @@
 }
 
 .footer-nav-link {
-  color: #e7e7e7;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #2983bc;
   text-decoration: none;
 }

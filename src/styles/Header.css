@@ -30,7 +30,7 @@
   font-family: "Overlock", sans-serif;
   font-weight: 900;
   padding: 2px 0 0;
-  font-size: 20px;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -44,9 +44,9 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  font-size: 0.8rem;
   gap: 5px;
   padding: 5px;
-  font-size: 10px;
 }
 
 .header a {
@@ -67,7 +67,7 @@
   gap: 6px;
   color: #e6e9f0;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 0.8rem;
   font-weight: 700;
   white-space: nowrap;
   padding: 2px 0 8px;
@@ -125,42 +125,28 @@ body.dyslexia-mode .header-center {
 }
 
 body.dyslexia-mode .my-name {
-  font-size: 23px;
+  font-size: 1.5rem;
   margin: 0;
   padding: 2px 0 0;
 }
 
 body.dyslexia-mode .my-title {
-  font-size: 14px;
+  font-size: 1rem;
   margin: 0;
   padding: 2px 0;
 }
 
 body.dyslexia-mode .main-navigation {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
+/* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
   body.dyslexia-mode .my-logo {
     max-width: 76px;
     max-height: 76px;
   }
 
-  body.dyslexia-mode .my-name {
-    font-size: 30px;
-  }
-
-  body.dyslexia-mode .my-title {
-    font-size: 16px;
-  }
-
-  body.dyslexia-mode .main-navigation {
-    font-size: 16px;
-  }
-}
-
-/* Responsive CSS for iPad and larger screens */
-@media screen and (width >= 800px) {
   .header {
     flex-direction: row;
     justify-content: center;
@@ -181,7 +167,6 @@ body.dyslexia-mode .main-navigation {
 
   .my-name {
     padding: 7px 0 0;
-    font-size: 27px;
   }
 
   .my-title {
@@ -189,7 +174,6 @@ body.dyslexia-mode .main-navigation {
   }
 
   .main-navigation {
-    font-size: 12px;
     gap: 10px;
     padding: 7px 0;
   }
