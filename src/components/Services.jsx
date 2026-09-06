@@ -49,7 +49,7 @@ function Services () {
           <tr>
             <td className="service-name">CUSTOM FOOTER</td>
             <td className="description">All pages include "Developed by Wanda McCrae" in the footer. You can remove that phrase for a small fee.</td>
-            <td className="price">$59USD</td>
+            <td className="price">$59USD/page</td>
           </tr>
           <tr>
             <td className="service-name">SITE MAINTENANCE</td>
@@ -58,7 +58,7 @@ function Services () {
           </tr>
           <tr>
             <td className="service-name">SITE MAINTENANCE TRAINING</td>
-            <td className="description">Prefer to take a hands-on approach? I will give you a one-time training session to teach you how to access and maintain your own site.</td>
+            <td className="description">Prefer to take a hands-on approach? I will give you a two-hour training session to teach you how to access and maintain your own site.</td>
             <td className="price">$199USD</td>
           </tr>
         </tbody>
@@ -100,7 +100,7 @@ function Services () {
           Domain Hosting Setup (Bluehost)
         </h2>
         <p className="page-description">
-          If you do not already have a domain and hosting setup for your website, I can do that for you. For ease of setup and maintenance, I recommend Bluehost.
+          If you do not already have a domain and hosting setup for your website, I can do that for you. For ease of setup and maintenance, I recommend Bluehost. All fees listed here will be paid directly to Bluehost.
         </p>
       </div>
       <table className="prices-table">
@@ -115,17 +115,17 @@ function Services () {
         <tbody>
           <tr>
             <td className="service-name">DOMAIN NAME REGISTRATION</td>
-            <td className="description">This is for the most basic domain name registration. Fees are paid directly to Bluehost.</td>
+            <td className="description">This is for the most basic domain name registration.</td>
             <td className="price">$0USD first year<br></br>$14.99USD annually</td>
           </tr>
           <tr>
             <td className="service-name">1 YEAR OF BASIC WEB HOSTING</td>
-            <td className="description">For a basic one year hosting plan. Multi-year and other hosting plans are also available. Fees are paid directly to Bluehost.</td>
+            <td className="description">For a basic one year hosting plan. Multi-year and other hosting plans are also available.</td>
             <td className="price">$59.88USD first year<br></br>$144USD annually</td>
           </tr>
           <tr>
             <td className="service-name">PROFESSIONAL SETUP FEE</td>
-            <td className="description">I will set up your domain and web hosting account for you, with the domain name and/or hosting fees paid directly to Bluehost.</td>
+            <td className="description">I will set up your domain and web hosting account for you with Bluehost.</td>
             <td className="price">$149USD</td>
           </tr>
         </tbody>
