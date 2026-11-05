@@ -1,6 +1,6 @@
 # Wanda McCrae: Freelance Web Developer
 
-Portfolio and services website for Wanda McCrae, a freelance web developer offering affordable flat-rate web development, business name registration, and domain hosting setup.
+Portfolio and services website for Wanda McCrae, a solution architect offering affordable flat-rate web development and domain hosting setup.
 
 Live site: [freelance.wandamccrae.com](https://freelance.wandamccrae.com)
 
@@ -9,7 +9,24 @@ CI/CD: deployed from GitHub to Netlify.
 
 ---
 
+## Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Pages](#pages)
+- [Features](#features)
+  - [Dyslexia-Friendly Mode](#dyslexia-friendly-mode)
+  - [Accessibility](#accessibility)
+  - [Pricing Tables (Services page)](#pricing-tables-services-page)
+  - [Contact Form](#contact-form)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Revision History](#revision-history)
+
+---
+
 ## Tech Stack
+
+[Back to Top](#wanda-mccrae-freelance-web-developer)
 
 - **React 19** with Vite
 - **React Router v7** — client-side routing (SPA)
@@ -21,6 +38,8 @@ CI/CD: deployed from GitHub to Netlify.
 ---
 
 ## Pages
+
+[Back to Top](#wanda-mccrae-freelance-web-developer)
 
 | Route | Component | Description |
 |---|---|---|
@@ -34,6 +53,8 @@ CI/CD: deployed from GitHub to Netlify.
 ---
 
 ## Features
+
+[Back to Top](#wanda-mccrae-freelance-web-developer)
 
 ### Dyslexia-Friendly Mode
 Toggleable from the header (below the nav on mobile, far right on larger screens). When enabled, applies:
@@ -65,6 +86,8 @@ Powered by [FormSubmit](https://formsubmit.co) — submissions are emailed direc
 ---
 
 ## Project Structure
+
+[Back to Top](#wanda-mccrae-freelance-web-developer)
 
 ```
 wm-freelance/
@@ -99,6 +122,8 @@ wm-freelance/
 
 ## Getting Started
 
+[Back to Top](#wanda-mccrae-freelance-web-developer)
+
 ```bash
 npm install
 npm run start    # Vite development server at http://localhost:3000
@@ -111,6 +136,10 @@ npm run preview  # preview the production build
 ---
 
 ## Revision History
+
+[Back to Top](#wanda-mccrae-freelance-web-developer)
+
+- **2026 November 5** - Updated README to include a Table of Contents. Added a Back to Top link to every section.
 
 - **2026 April 9** - Migrated from Create React App to Vite to modernize development and build processes.
 - **2026 March 31** — Cleaned up styling for Samples page and updated documentation.
