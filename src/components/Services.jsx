@@ -8,7 +8,7 @@ function Services () {
           Web Development and Maintenance
         </h1>
         <p className="page-description">
-          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a small web design agency can range from $3000 - $8000USD!</span> Additionally, having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to build and maintain your site. Compare that hefty price tag to my prices:
+          Depending on the complexity of your site, <span className="emphasis">flat-rate pricing through a small web design agency can range from $3000USD - $8000USD!</span> Additionally, having the agency on retainer for regular updates can cost an extra few thousand dollars a year. Save thousands of dollars by working with me to build and maintain your site. Compare that hefty price tag to my prices:
         </p>
       </div>
       <table className="prices-table">
@@ -130,6 +130,7 @@ function Services () {
           </tr>
         </tbody>
       </table>
+      <p>Prices subject to change.</p>
     </main>
   );
 };
